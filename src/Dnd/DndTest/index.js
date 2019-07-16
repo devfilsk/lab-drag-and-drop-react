@@ -20,6 +20,7 @@ const Item = styled.div`
 const droppableStyle = {
     backgroundColor: '#555',
     width: '250px',
+    borderRadius: '3px',
     height: '400px',
     margin: '32px'
 }
