@@ -29,8 +29,9 @@ const DndTest = () => {
     return (
         <div className='App-header'>
             <Droppable id='dr1' style={droppableStyle}>
-                <Draggable id='item1' style={{margin: '8px'}}><Item>Primeiro conteudo</Item></Draggable>
-                <Draggable id='item2' style={{margin: '8px'}}><Item>Segundo conteúdo + 1 </Item></Draggable>
+                <Draggable id='item1' style={{margin: '8px'}}><div className='item-draggable'>Primeiro conteudo</div></Draggable>
+                <Draggable id='item2' style={{margin: '8px'}}><div className='item-draggable'>Segundo conteúdo + 2 </div></Draggable>
+                <Draggable id='item3' style={{margin: '8px'}}><div className='item-draggable'>Segundo conteúdo + 3 </div></Draggable>
             </Droppable>
             <Droppable id='dr2' style={droppableStyle}>
             </Droppable>
