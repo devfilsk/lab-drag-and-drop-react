@@ -14,9 +14,11 @@
     background-color: #ababab;
     border-radius: 3px;
     height: 50px;
-    display: none;
+    display: flex;
 }
-
+.drop-zone.primary:after{
+    content: 'Solte itens aqui'
+}
 .show {
     display: flex;
 }

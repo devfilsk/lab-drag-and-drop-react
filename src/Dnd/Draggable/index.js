@@ -7,7 +7,6 @@ const Draggable = (props) => {
         e.dataTransfer.setData('task', e.target.id)
         // e.dataTransfer.effectAllowed='copy';
         // console.log('Serviço: ', e.target.id)
-
     };
 
     const dragStart = (e) => {
